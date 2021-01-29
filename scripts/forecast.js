@@ -27,8 +27,4 @@ const getWeather = async (id) => {
   
   };
   
-  getCity(city).then(data => {
-    return getWeather(data.Key);
-  }).then(data => {
-    console.log(data);
-  }).catch(err => console.log(err));
+  
